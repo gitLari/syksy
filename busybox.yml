@@ -6,6 +6,6 @@ metadata:
     app: myapp
 spec:
   containers:
-  - name: myapp_container
+  - name: myapp-container
     image: busybox
     command: ['sh', '-c', 'echo Hello DK && sleep 3600']
